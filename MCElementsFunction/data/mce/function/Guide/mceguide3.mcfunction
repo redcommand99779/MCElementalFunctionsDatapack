@@ -1,0 +1,1 @@
+tellraw @s {text:"Ok. Dann schau dir erstmal den HUB an und komme später wieder um deine Starterdimension auszuwählen.",color:"gold"}
