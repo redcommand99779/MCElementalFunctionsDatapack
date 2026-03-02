@@ -1,5 +1,5 @@
 {
     "values": [
-        "mce:load"
+        "mce:core/load"
     ]
 }

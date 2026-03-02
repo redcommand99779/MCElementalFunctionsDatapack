@@ -1,0 +1,1 @@
+execute as @a if dimension minecraft:hub run effect give @s minecraft:saturation 1 255 true
