@@ -1,0 +1,2 @@
+execute as @a if items entity @s player.cursor minecraft:player_head[minecraft:custom_data = {mce_gui:{action:"DTP"}}] run function mce:gui/enderchest/dimensiontp/dtp
+execute as @a if items entity @s container.* minecraft:player_head[minecraft:custom_data = {mce_gui:{action:"DTP"}}] run function mce:gui/enderchest/dimensiontp/dtp
