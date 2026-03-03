@@ -5,3 +5,4 @@ function mce:core/saturation
 function mce:core/firstspawn
 function mce:gui/enderchest/hub/hubtick
 function mce:gui/enderchest/dimensionchoose/dchoosetick
+function mce:gui/enderchest/dimensiontp/dtptick
