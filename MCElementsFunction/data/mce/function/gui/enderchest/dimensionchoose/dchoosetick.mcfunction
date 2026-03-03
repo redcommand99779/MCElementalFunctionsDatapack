@@ -10,3 +10,4 @@ execute as @a if items entity @s player.cursor minecraft:player_head[minecraft:c
 execute as @a if items entity @s container.* minecraft:player_head[minecraft:custom_data = {mce_gui:{action:"DChoose3"}}] run scoreboard players set @s DChoose 3
 execute as @a if items entity @s player.cursor minecraft:player_head[minecraft:custom_data = {mce_gui:{action:"DChoose4"}}] run scoreboard players set @s DChoose 0
 execute as @a if items entity @s container.* minecraft:player_head[minecraft:custom_data = {mce_gui:{action:"DChoose4"}}] run scoreboard players set @s DChoose 0
+clear @a minecraft:player_head[minecraft:custom_data={mce_gui:{action:DChoose1}}]
