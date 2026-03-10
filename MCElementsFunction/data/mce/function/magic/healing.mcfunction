@@ -1,1 +1,1 @@
-say hi
+effect give @s minecraft:regeneration
