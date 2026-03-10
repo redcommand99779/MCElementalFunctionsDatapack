@@ -1,3 +1,4 @@
 execute as @a if items entity @s player.cursor minecraft:player_head[minecraft:custom_data = {mce_gui:{action:"DTP"}}] run function mce:gui/enderchest/dimensiontp/dtp
 execute as @a if items entity @s container.* minecraft:player_head[minecraft:custom_data = {mce_gui:{action:"DTP"}}] run function mce:gui/enderchest/dimensiontp/dtp
 item replace entity @a enderchest.8 with minecraft:player_head[profile={properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE5OTM0MmUyYzczYTlmMzgyMjYyOGU3OTY0ODgyMzRmMjU4NDQ2ZjVhMmQ0ZDU5ZGRlNGFhODdkYjk4In19fQ=="}]},minecraft:custom_data={mce_gui:{action:DTP}},minecraft:custom_name={color:"gold",text:" [Dimension Teleport]",bold:1b}]
+scoreboard players add @a DChoose 0
