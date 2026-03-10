@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "magic_scroll_trigger_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flow_banner_pattern"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "function": "mce:magic/poison"
+  }
+}
