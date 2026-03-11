@@ -13,6 +13,6 @@
   },
   "rewards": {
     "experience": 0,
-    "function": "mce:magic/poison"
+    "function": "mce:magic/poison_choose"
   }
 }

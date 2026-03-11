@@ -13,6 +13,6 @@
   },
   "rewards": {
     "experience": 0,
-    "function": "mce:magic/fire"
+    "function": "mce:magic/fire_choose"
   }
 }

@@ -13,6 +13,6 @@
   },
   "rewards": {
     "experience": 0,
-    "function": "mce:magic/healing"
+    "function": "mce:magic/healing_choose"
   }
 }

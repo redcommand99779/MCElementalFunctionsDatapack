@@ -4,3 +4,8 @@ scoreboard objectives add Dimension dummy
 scoreboard objectives add ElementalGuideTrigger trigger
 scoreboard objectives add DChoose dummy
 scoreboard objectives add ECEnable dummy
+scoreboard objectives add magic_fire dummy
+scoreboard objectives add magic_weakness dummy
+scoreboard objectives add magic_poison dummy
+scoreboard objectives add magic_healing dummy
+scoreboard objectives add magic_lightning dummy
