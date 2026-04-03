@@ -6,3 +6,4 @@ function mce:core/firstspawn
 execute as @a if score @s ECEnable matches 1.. run function mce:gui/enderchest/hub/hubtick
 execute as @a if score @s ECEnable matches 2.. run function mce:gui/enderchest/dimensionchoose/dchoosetick
 execute as @a if score @s ECEnable matches 2.. run function mce:gui/enderchest/dimensiontp/dtptick
+function mce:core/dimteam
