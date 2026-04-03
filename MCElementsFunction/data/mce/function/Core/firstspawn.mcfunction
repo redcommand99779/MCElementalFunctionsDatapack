@@ -1,1 +1,0 @@
-execute as @a at @s if dimension minecraft:overworld run execute in minecraft:hub run tp @s 450 98 300
