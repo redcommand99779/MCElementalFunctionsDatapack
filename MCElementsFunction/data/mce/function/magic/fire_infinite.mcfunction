@@ -1,3 +1,3 @@
 execute at @s unless dimension minecraft:hub run execute at @s as @e[distance=0.5..5] at @s run setblock ~ ~ ~ minecraft:fire
-give @s piglin_banner_pattern[consumable={consume_seconds:1,animation:"block",sound:"entity.evoker.prepare_attack",has_consume_particles:true,on_consume_effects:[{type:"minecraft:play_sound",sound:"entity.evoker.cast_spell"}]},enchantment_glint_override=true,rarity="epic",use_cooldown={seconds:30,cooldown_group:"magic_spell"},custom_name="Fire Scroll"] 1
+item replace entity @s weapon.mainhand with piglin_banner_pattern[consumable={consume_seconds:1,animation:"block",sound:"entity.evoker.prepare_attack",has_consume_particles:true,on_consume_effects:[{type:"minecraft:play_sound",sound:"entity.evoker.cast_spell"}]},enchantment_glint_override=true,rarity="epic",use_cooldown={seconds:30,cooldown_group:"magic_spell"},custom_name="Fire Scroll"] 1
 advancement revoke @s only mce:magic_scroll_trigger_fire
